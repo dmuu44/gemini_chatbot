@@ -1,6 +1,6 @@
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyBZV5b-gPzYsD-0K_0nYxwwp4eJGYUhhFk")
+genai.configure(api_key="*****************************")
 model = genai.GenerativeModel("gemini-1.5-flash")
 print("chatBot is initilized enter exit for stop chating")
 while True:
